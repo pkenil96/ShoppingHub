@@ -27,6 +27,12 @@ Seller, Buyer and System will be three separate microservices.
     1) Send notifications to subscribers when Product becomes available
     2) Send notifications to users when OrderStatus changes
 
+Other Features
+    1. Buyer: Every information except the id should be encrypted
+    2.  
+
+Implementation Details
+
 ***ENUMS***
 
 ```enum OrderStatus {
@@ -35,13 +41,18 @@ Seller, Buyer and System will be three separate microservices.
     SHIPPED,
     COMPLETE,
     CANCELLED
-}```
-
+}
+```
 
 ***Classes and Interfaces***
 
-```Product {
-    String name;
-    String id;
-    String imageUrl;
-}```
+Product
+
+* Attributes
+  -name
+  -pid
+  -imageUrl
+  -weight
+  -price
+
+```
