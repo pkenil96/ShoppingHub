@@ -33,20 +33,9 @@ Other Features
 
 Implementation Details
 
-***ENUMS***
+***Classes, Interfaces, Enum***
 
-```enum OrderStatus {
-    PENDING,
-    PROCESSING,
-    SHIPPED,
-    COMPLETE,
-    CANCELLED
-}
-```
-
-***Classes and Interfaces***
-
-Product
+Product (Class)
 
 * Attributes
   -name
@@ -54,5 +43,11 @@ Product
   -imageUrl
   -weight
   -price
+* Methods
 
-```
+OrderStatus (Enum)
+ -PENDING,
+ -PROCESSING,
+ -SHIPPED,
+ -COMPLETE,
+ -CANCELLED
