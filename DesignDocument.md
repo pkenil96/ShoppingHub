@@ -36,18 +36,17 @@ Implementation Details
 ***Classes, Interfaces, Enum***
 
 Product (Class)
-
 * Attributes
   -name
-  -pid
+  -productId
   -imageUrl
   -weight
   -price
 * Methods
 
 OrderStatus (Enum)
- -PENDING,
- -PROCESSING,
- -SHIPPED,
- -COMPLETE,
+ -PENDING
+ -PROCESSING
+ -SHIPPED
+ -COMPLETE
  -CANCELLED
