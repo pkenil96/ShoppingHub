@@ -1,2 +1,2 @@
-# Dukaan
+# ShoppingHub
 E commerce website
