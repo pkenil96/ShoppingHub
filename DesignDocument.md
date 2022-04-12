@@ -1,4 +1,4 @@
-# Dukaan
+# ShoppingHub
 
 Seller, Buyer and System will be three separate microservices.
 
