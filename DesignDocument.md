@@ -28,14 +28,15 @@ Seller, Buyer and System will be three separate microservices.
     2) Send notifications to users when OrderStatus changes
 
 Other Features
-    1. Buyer: Every information except the id should be encrypted
-    2.  
+    1. Buyer: Every information about the buyer except the id should be encrypted
+    2. Seller: Every information about the seller except the id and produts should be encrypted
 
 Implementation Details
 
 ***Classes, Interfaces, Enum***
 
 Product (Class)
+
 * Attributes
   -name
   -productId
